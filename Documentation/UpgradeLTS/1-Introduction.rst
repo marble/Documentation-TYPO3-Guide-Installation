@@ -34,7 +34,7 @@ newer versions.
 This is why several years ago (during 4.3 development - back in 2009)
 the core team agreed to introduce a consistent deprecation policy:
 
-**TYPO3 CMS deprecation policy**
+TYPO3 CMS deprecation policy
   If some method or API in the Core is replaced by a new one and is
   longer use by the Core itself, it can be marked as "deprecated" and
   can be removed two releases afterwards. Deprecated API methods are
