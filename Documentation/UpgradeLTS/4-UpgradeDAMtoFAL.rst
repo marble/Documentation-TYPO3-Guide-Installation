@@ -1,4 +1,4 @@
-﻿.. ==================================================
+.. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
@@ -13,8 +13,7 @@ If you have been working with "DAM" (Digital Asset Management) in TYPO3
 Abstraction Layer). DAM and it's related extensions no longer work with
 TYPO3 CMS 6.x.
 
-- Install the "dam_falmigration" extension
-  (https://github.com/b13/t3ext-dam_falmigration)
+- Install the extension `dam_falmigration <https://github.com/b13/t3ext-dam_falmigration>`_.
 
 - On the shell, call the migration tools one after the other:
 
