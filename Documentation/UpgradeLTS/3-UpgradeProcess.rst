@@ -8,8 +8,14 @@
 Upgrading from 4.5 LTS to 6.2 LTS
 =================================
 
-When the preparations are done the :ref:`upgrade` XXX upgrade process` itself is the
-same as before for minor level releases like from 6.1 to 6.2.
+When the preparations are done the :ref:`upgrade process <upgrade>` itself 
+is the same as before for minor level releases like from 6.1 to 6.2.
+
+.. Ernesto, you can remove this comment. It's only here to give you this
+   link to the documentation of how 'Intersphinx' works, which is the 
+   crossreferencing tool WITHIN and BETWEEN documentation sets. This is the link:
+   
+   http://sphinx-doc.org/latest/ext/intersphinx.html
 
 You can even skip minor versions in between, so there is no need to do
 any intermediate upgrades to upgrade from 4.5 (or 4.7) to 6.2.
@@ -20,12 +26,19 @@ any intermediate upgrades to upgrade from 4.5 (or 4.7) to 6.2.
 
 Some notes when upgrading from a 4.x installation nevertheless:
 
+.. attention::
+
+   Several things will automatically be done when you run the 
+   Install Tool of the new version the first time. This will happen
+   even *before* the Install Tool actually comes up. 
+   Read on - make a backup!
+
 - when you first call the Install Tool after switching typo3\_src to
-  the new release, and enabling the Install Tool with the
-  "ENABLE_INSTALL_TOOL" file, some things will automatically be done
+  the new release, and enable the Install Tool with the
+  "ENABLE_INSTALL_TOOL" file, several things will automatically be done
   even before the Install Tool starts. So be aware of it and make a
   backup of the installation in case you want to be able to restore
-  your old installation:
+  your old installation. This will be done:
 
   - the typo3conf/localconf.php will be adapted to the new 6.x style of
     configuration "LocalConfiguration.php"
