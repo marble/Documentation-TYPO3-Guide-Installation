@@ -6,7 +6,7 @@
 .. include:: ../Includes.txt
 
 
-.. _upgrade:
+.. _upgrade-LTS:
 
 Upgrade from LTS to LTS
 -----------------------
