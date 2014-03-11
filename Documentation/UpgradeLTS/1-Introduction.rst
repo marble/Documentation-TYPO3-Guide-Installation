@@ -60,13 +60,13 @@ Smooth Migration
 ----------------
 
 To help and guide admins, integrators and developers for the challenges
-posed by the mentioned changes in the Core, the TYPO3 6.2 created a
-"Smooth Migration" project, which had the goal to make the Upgrade
-process as smooth as possible. It followed three goals:
+posed by the mentioned changes in the Core, a "Smooth Migration" project
+was created for TYPO3 6.2 which has the goal to make the upgrade
+process as smooth as possible. It is aiming at these three goals:
 
-#. migration is possible in all areas
-#. migration can be planned and is quotable
-#. migration works out as planned
+#. migration shall be possible in all areas
+#. migration should be plannable and is quotable
+#. migration should work out as planned
 
 Read in the next chapters how you can plan, prepare and execute the
 migration from TYPO3 CMS 4.5 (and also 4.7) to the latest 6.2 LTS
