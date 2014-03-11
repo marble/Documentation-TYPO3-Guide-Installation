@@ -52,11 +52,12 @@ Extensions
 Compatibility Check
 ^^^^^^^^^^^^^^^^^^^
 
-Install the extension `smoothmigration`__ in your old installation. This
+Install the extension EXT:smoothmigration (Github__, Forge__). This
 extension provides a module in the backend that is able to analyse your
 current installation, in particular the installed extensions, and give
 you hints on compatibility problems.
 
+__ https://github.com/nxpthx/typo3-upgradereport
 __ http://forge.typo3.org/projects/typo3cms-smoothmigration
 
 The following checks will be done (and even more in future, as this
