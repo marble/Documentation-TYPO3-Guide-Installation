@@ -1,17 +1,17 @@
-﻿.. ==================================================
+.. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../Includes.txt
 
-.. _upgrade:
+.. _lts-upgrade-introduction:
 
 Introduction
 ============
 
 This chapter will give you an historical perspective on what happened
-since TYPO3 4.5 and why things changed the way they changed, and what
+since TYPO3 4.5 and why things changed the way they did, and what
 to expect from the migration from 4.5 to 6.2.
 
 Deprecation Strategy
