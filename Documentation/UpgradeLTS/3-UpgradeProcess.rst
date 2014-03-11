@@ -1,4 +1,4 @@
-﻿.. ==================================================
+.. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
@@ -8,9 +8,8 @@
 Upgrading from 4.5 LTS to 6.2 LTS
 =================================
 
-After working out the preparations, the upgrade process itself is the
-same as from one minor level release to the next one (i.e. 6.1 to 6.2).
-See :ref:`_upgrade`.
+When the preparations are done the :ref:`upgrade` XXX upgrade process` itself is the
+same as before for minor level releases like from 6.1 to 6.2.
 
 You can even skip minor versions in between, so there is no need to do
 any intermediate upgrades to upgrade from 4.5 (or 4.7) to 6.2.
