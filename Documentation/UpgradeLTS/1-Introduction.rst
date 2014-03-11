@@ -35,10 +35,10 @@ This is why several years ago (during 4.3 development - back in 2009)
 the core team agreed to introduce a consistent deprecation policy:
 
 TYPO3 CMS deprecation policy
-  If some method or API in the Core is replaced by a new one and is
-  longer use by the Core itself, it can be marked as "deprecated" and
-  can be removed two releases afterwards. Deprecated API methods are
-  marked in the PHP code using @deprecated anotation.
+  If a method or API in the Core is replaced by a new one and is
+  no longer used by the Core itself, it can be marked as "deprecated" and
+  can be removed two releases later. Deprecated API methods are
+  marked in the PHP code using @deprecated annotation.
 
 At the same time the "deprecation log" was introduced in order for
 users to be able to identify potential old methods still being used by
@@ -52,8 +52,8 @@ removing them in 4.6 (and later) - which is also why 4.6 is called
 "rebase".
 
 2014, four years later (with the releases 4.6, 4.7, 6.0 and 6.1) lots
-of methods are finally really *gone*. For some users doing the first
-upgrade after 4.5 LTS to 6.2 LTS will face some major breaking of their
+of methods are finally really *gone*. Some users doing the first
+upgrade after 4.5 LTS to 6.2 LTS therefore will face some major breaking of their
 sites.
 
 Smooth Migration
